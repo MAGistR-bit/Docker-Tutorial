@@ -1,5 +1,23 @@
 # Docker-Tutorial
-Instructions for working with Docker (starting a container, creating an image)
+![Docker](https://camo.githubusercontent.com/4ec342876a40b53ffc6230a41196528690f9f42b1098fd354df46c649720b4c6/68747470733a2f2f696d672e736869656c64732e696f2f7374617469632f76313f7374796c653d666f722d7468652d6261646765266d6573736167653d446f636b657226636f6c6f723d323439364544266c6f676f3d446f636b6572266c6f676f436f6c6f723d464646464646266c6162656c3d)
+![Ubuntu](https://camo.githubusercontent.com/1814dfdb62c9a3366a9946083ac0f3ed32aad98e665b287769332252d945f2f1/68747470733a2f2f696d672e736869656c64732e696f2f7374617469632f76313f7374796c653d666f722d7468652d6261646765266d6573736167653d5562756e747526636f6c6f723d453935343230266c6f676f3d5562756e7475266c6f676f436f6c6f723d464646464646266c6162656c3d)
+
+## 📒 Полезная информация (Useful Information)
+Вот что Вы узнаете, если воспользуетесь информацией,
+представленной в данном репозитории:
+* как создать образ Docker с помощью Dockerfile;
+* как присвоить тег образу Docker для удобства пользования;
+* как запустить свой новый образ Docker.
+
+<details>
+<summary> English version </summary>
+
+Here's what you'll learn if you use the information
+provided in this repository:
+* how to create a Docker image using Dockerfile;
+* how to assign a tag to a Docker image for ease of use;
+* how to launch your new Docker image.
+</details>
 
 ## 📝 Пишем Dockerfile (Write Dockerfile)
 Dockerfile - текстовый файл, содержащий серию команд.
@@ -145,10 +163,29 @@ example1
 
 ![Docker diff](img/docker_diff.png)
 
-## TodoMVC App
+## 🎮 TodoMVC App
 
 Если Вы все сделали правильно, то после запуска контейнера, 
 Вы сможете поиграть с приложением Todo,
 открыв его в своем браузере (`http://localhost:8000`):
 
 ![Todo App](img/Screenshot.png)
+
+**Приложение Todo** - это приложение, которое помогает Вам
+отслеживать то, что Вы хотите сделать. Приложение хранит и отображает
+короткие строки информации, которые можно пометить как выполненные.
+
+<details>
+<summary>English version</summary>
+
+If you did everything correctly, then after starting the container, 
+you can play with the Todo app, by opening it 
+in your browser `http://localhost:8000`. 
+
+The Todo app is an app that helps you
+keep track of what you want to do. The application saves and displays
+short lines of information that can be marked as completed.
+</details>
+
+## Лицензия (LICENSE)
+Licensed under the [MIT License](LICENSE).
