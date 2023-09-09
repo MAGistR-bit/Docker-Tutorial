@@ -1,0 +1,9 @@
+.swarm
+dist
+node_modules
+frames.html
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
